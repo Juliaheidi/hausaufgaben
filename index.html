@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schwarzer Hintergrund</title>
+  <style>
+    body {
+      background-color: black; /* Hintergrundfarbe schwarz */
+      color: white; /* Textfarbe weiß, damit man ihn sehen kann */
+      margin: 0; /* entfernt Standardabstände des Browsers */
+      height: 100vh; /* Höhe auf volle Bildschirmhöhe setzen */
+    }
+  p {
+    font-size: 15px
+  }
+  .hausaufg {
+    color: #1E90FF;
+  }
+  .tests {
+    color: #EE0000;
+  }
+  .orga {
+    color:#EE6AA7;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 30px;
+  }
+  table, th, td {
+        border: 1px solid;
+        padding:8px;
+      }
+  </style>
+</head>
+<body>
+  <h1>Neeles Hausaufgaben</h1>
+  
+  <p class="hausaufg">Hausaufgaben</p>
+  <p class="tests">Klassenarbeiten/Tests</p>
+  <p class="orga">Organisatorisches</p>
+  
+  <table> 
+    <thead>
+      <tr>
+        <th>Datum zum</th>
+        <th>Fach</th>
+        <th>Aufgabe</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Freitag, 05.12</td>
+        <td>Mathe</td>
+        <td class="tests">Klassenarbeit</td>
+      </tr>
+      <tr>
+        <td>Montag, 08.12</td>
+        <td>Französisch</td>
+        <td class="hausaufg">Bildbeschreibung, siehe Untis</td>
+      </tr>
+      <tr>
+        <td>Dienstag, 09.12</td>
+        <td>Englisch</td>
+        <td class="hausaufg">Correction</td>
+      </tr>
+      <tr>
+        <td>Dienstag, 09.12</td>
+        <td>Englisch</td>
+        <td class="hausaufg">finish worksheet on OneNote (3 a +b + final practice)</td>
+      </tr>
+    </tobody>
+  </table>
+</body>
+</html>
